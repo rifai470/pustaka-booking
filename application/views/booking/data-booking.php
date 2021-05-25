@@ -32,87 +32,21 @@
                             <?php $no++;
                             }
                             ?>
-
-
-
-
                         </table>
-
-
-
                     </div>
-
-
-
                 </td>
-
-
             </tr>
-
-
             <tr>
-
-
-
                 <td colspan="3">
-
-
-
                     <hr>
-
-
-
                 </td>
-
-
             </tr>
-
-
             <tr>
-
-
-
                 <td colspan="3">
-
-
-
-                    <a class="btn
-btn-sm
-btn-outlineprimary" href="<?php
-                            echo
-                            base_url();
-                            ?>"><span class="fas
-fw
-faplay"></span>
-                        Lanjutkan Booking Buku</a>
-
-
-
-                    <a class="btn
-btn-sm
-btn-outlinesuccess" href="<?php
-                            echo
-                            base_url()
-                                .
-                                'booking/bookingSelesai/'
-                                .
-                                $this -> session->userdata('id_user');
-                            ?>"><span class="fas
-fw
-fastop"></span>
-                        Selesaikan Booking</a>
-
-
-
+                    <a class="btn btn-sm btn-outlineprimary" href="<?php echo base_url(); ?>"><span class="fas fw faplay"></span>Lanjutkan Booking Buku</a>
+                    <a class="btn btn-sm btn-outlinesuccess" href="<?php echo base_url().'booking/bookingSelesai/'.$this -> session->userdata('id_user'); ?>"><span class="fas fw fastop"></span>Selesaikan Booking</a>
                 </td>
-
-
             </tr>
-
-
         </table>
-
-
     </center>
-
 </div>

@@ -27,23 +27,14 @@ class ModelPinjam extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('pinjam');
-        $this->db->join('detail_pinjam',
-'detail_pinjam.no_pinjam=pinjam.no_pinjam',
-'Right');
-
-
-       
-
-
-       return $this->db->get()->result_array();
+        $this->db->join('detail_pinjam', 'detail_pinjam.no_pinjam=pinjam.no_pinjam', 'Right');
+        return $this->db->get()->result_array();
     }
- 
+
     //manip tabel detai pinjam
     public function simpanDetail($idbooking, $nopinjam)
     {
-        $sql = "INSERT INTO detail_pinjam (no_pinjam,id_buku) SELECT pinjam.no_pi
-njam,booking_detail.id_buku FROM pinjam, booking_detail WHERE booking_detail.id_b
-ooking=$idbooking AND pinjam.no_pinjam='$nopinjam'";
+        $sql = "INSERT INTO detail_pinjam (no_pinjam,id_buku) SELECT pinjam.no_pinjam,booking_detail.id_buku FROM pinjam, booking_detail WHERE booking_detail.id_booking=$idbooking AND pinjam.no_pinjam='$nopinjam'";
         $this->db->query($sql);
     }
-} 
+}
