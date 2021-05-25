@@ -32,25 +32,20 @@
 
                 <!-- Heading -->
                 <div class="sidebar-heading">
-                    Master Data
+                    Transakasi
                 </div>
                     <!-- Nav Item - Dashboard -->
                     <li class="nav-item active">
                         <!-- Nav Item - Dashboard -->
                         <li class="nav-item">
                             <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
-                                <i class="fa fa-fw fa book"></i>
-                                <span>Kategori Buku</span></a>
+                                <i class="fa fa-fw fa-shooping-cart"></i>
+                                <span>Data Peminjaman</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
-                                <i class="fa fa-fw fa book"></i>
-                                <span>Data Buku</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
-                                <i class="fa fa-fw fa book"></i>
-                                <span>Data Anggota</span></a>
+                                <i class="fa fa-fw fa-list "></i>
+                                <span>Data Booking</span></a>
                         </li>
                     </li>
                 <!-- Divider -->
