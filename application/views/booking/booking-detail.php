@@ -48,7 +48,7 @@
                             <?php $no++;
                             } ?>
                         </table>
-                        < /div>
+                        </div>
                 </td>
             </tr>
             <tr>

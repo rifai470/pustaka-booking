@@ -42,17 +42,6 @@
                     </div>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a class="btn btn-sm btn-outlinedanger" onclick="information('Waktu Pengambilan Buku 1x24 jam dari Booking!!!')" href="<?php echo base_url() . 'booking/exportToPdf/' . $this->session->userdata('id_user'); ?>"><span class="far fa-lg fa-fw fa-filepdf"></span>Pdf</a>
-
-                </td>
-            </tr>
         </table>
     </center>
 </div>
