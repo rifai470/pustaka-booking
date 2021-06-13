@@ -5,7 +5,7 @@
     <?= $this->session->flashdata('pesan'); ?>
     <div class="row">
         <div class="col-lg-12">
-            <?php if (validation_errors()) { ?>78
+            <?php if (validation_errors()) { ?>
             <div class="alert alert-danger" role="alert">
                 <?= validation_errors(); ?>
             </div>

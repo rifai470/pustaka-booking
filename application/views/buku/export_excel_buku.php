@@ -21,16 +21,15 @@ header("Expires: 0");
         <tbody>
             <?php 
                 $no = 1;
-                foreach ($buku as $b) {
-            ?>
+                foreach ($buku as $b) { ?>
                 <tr>
                     <th scope="row"><?= $no++; ?></th>
-                    <td>$b['judul_buku']</td>
-                    <td>$b['pengarang']</td>
-                    <td>$b['penerbit']</td>
-                    <td>$b['tahun_penerbit']</td>
-                    <td>$b['isbn']</td>
-                    <td>$b['stok']</td>
+                    <td><?=$b['judul_buku']; ?></td>
+                    <td><?=$b['pengarang']; ?></td>
+                    <td><?=$b['penerbit']; ?></td>
+                    <td><?=$b['tahun_penerbit']; ?></td>
+                    <td><?=$b['isbn']; ?></td>
+                    <td><?=$b['stok']; ?></td>
                 </tr>
             <?php 
                 }
