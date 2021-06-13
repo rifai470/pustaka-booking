@@ -80,7 +80,6 @@
                 <div class="sidebar-heading">
                     Laporan
                 </div>
-                    <!-- Nav Item - Dashboard -->
                     <li class="nav-item active">
                         <!-- Nav Item - Dashboard -->
                         <li class="nav-item">
