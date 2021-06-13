@@ -80,8 +80,24 @@
                 <div class="sidebar-heading">
                     Laporan
                 </div>
-                    <!-- Nav Item - Dashboard -->
                     <li class="nav-item active">
+                        <!-- Nav Item - Dashboard -->
+                        <li class="nav-item">
+                            <a class="nav-link pb-0" href="<?= base_url('laporan/laporan_buku'); ?>">
+                                <i class="fa fa-fw fa-address-book"></i>
+                                <span>Laporan Data Buku</span></a>
+                        </li>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Nav Item - Dashboard -->
+                        <li class="nav-item">
+                            <a class="nav-link pb-0" href="<?= base_url('laporan/laporan_anggota'); ?>">
+                                <i class="fa fa-fw fa-address-book"></i>
+                                <span>Laporan Data Anggota</span></a>
+                        </li>
+                    </li>
+                    <!-- Nav Item - Dashboard -->
+                    <li class="nav-item">
                         <!-- Nav Item - Dashboard -->
                         <li class="nav-item">
                             <a class="nav-link pb-0" href="<?= base_url('laporan/laporan_pinjam'); ?>">
